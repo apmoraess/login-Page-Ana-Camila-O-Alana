@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family')
+
+body{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #023047
+}
+
+.page{
+    display: flex;
+    flex-direction: column
+    align-items: center;
+    align-conetent: center;
+    justify-content: center;
+    width: 100%
+    height: 100%
+    background-color: #480CaB
+}
+
+.formLogin{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 40px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+    gap: 5px;
+}
+.formLogin h1{
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 2.3em;
+}
